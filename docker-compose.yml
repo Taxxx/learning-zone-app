@@ -1,0 +1,13 @@
+version: '3.0'
+
+
+services:
+
+  angular_learning_zone:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NG_PROJECT_NAME: learning-zone-app
+    ports:
+      - '8000:80'
