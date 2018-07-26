@@ -4,6 +4,7 @@ version: '3.0'
 services:
 
   angular_learning_zone:
+    container_name: learning-zone-app
     build:
       context: .
       dockerfile: Dockerfile
